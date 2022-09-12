@@ -71,7 +71,7 @@
 }
 
 .header-form{
-	width: 70%;
+	width: 40%;
 	margin: auto;
 }
 
@@ -79,23 +79,24 @@
 	color: white;
 	text-align: center;
 	font-weight: bold;
-	font-size:  32px;
+	font-size:  42px;
 }
 .header-form p{
 	color: rgb(216, 213, 213);
 	text-align: center;
-	font-size: 18px;
+	font-size: 28px;
 	padding: 10px 0;
 	line-height: 1.6;
 }
 
 .header-conversation{
-	width: 25%;
+	width: 15%;
 	margin: auto;
 	padding: 10px 0;
 }
 
 .header-conversation-item{
+	/* width: 60%; */
 	background: white;
 	border-radius: 10px;
 	margin: 10px;
@@ -330,16 +331,32 @@
 }
 
 .footer{
+	display:  table;
 	padding-top: 40px;
-	display: flex;
-	justify-content: space-around;
+	margin: auto;
+	/* display: flex;*/
+	/* justify-content: space-around; */
 	background-color: rgb(247, 247, 247);
+	width: 80%;
+	/* text-align: justify; */
 }
 .footer p{
 	padding-top: 10px;
+	font-size: 18px;
+}
+
+.footer-logo{
+	width: 33%;
+	padding: 0 10px;
+	display:  table-cell;
 }
 .footer-copyright{
+	width: 33%;
+	margin: auto;
 	padding-top: 30px;
+	/* padding-left: 30px; */
+	display:  table-cell;
+	text-align: center;
 }
 .footer-copyright img{
 	display: inline-block;
@@ -347,11 +364,19 @@
 }
 
 .footer-terms{
+	width: 33%;
 	padding-top: 20px;
+	display:  table-cell;
 }
 .footer-social-media-icons{
-	display: flex;
-	justify-content: end;
+	display: table;
+	width: 100%;
+	text-align: right;
+	/* display: flex;
+	justify-content: end; */
+}
+.footer-social-media-icons a{
+	padding-left: 10px;
 }
 .fa {
 	filter: grayscale(100%);
@@ -364,9 +389,33 @@
 }
 
 .footer-text{
-	display: block;
-
+	margin: auto;
+	width: 100%;
+	/* display: block; */
+    display: table;
+    /* text-align: center; */
 }
 .footer-text p{
-	display: inline-block;
+	display: table-cell;
+	text-align: right;
+    /* text-align: center; */
+	/* display: inline-block; */
+}
+
+.container ul li:first-child{
+	color: red;
+}
+.container ul li:last-child{
+	color: yellow;
+}
+.container ul li:nth-child(2){
+	color: magenta;
+}
+
+.container ul li:nth-child(odd){
+	color: magenta;
+}
+
+.container ul li:nth-child(even){
+	color: green;
 }
