@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+img {
+	width: 100%;
+	vertical-align: top;
+}
 
 header{
 	background: url(../img/bg.png)no-repeat;
@@ -100,8 +104,12 @@ header{
 }
 .header-conversation-visitor img{
 	left: -30px;
+	width: 60px;
+	height: 60px;
 }
 .header-conversation-leila img{
+	width: 60px;
+	height: 60px;
 	right: -30px;
 }
 
@@ -176,7 +184,7 @@ header{
 	text-decoration: none;
 }
 .page-data-centered{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	text-align: center;
 }
@@ -190,6 +198,9 @@ header{
 	max-height:100%;
 	display: block;
 }
+.page-tips{
+	padding-top: 20px;
+}
 .page-tip{
 	position: relative;
 }
@@ -197,7 +208,7 @@ header{
 	margin: 0;
 }
 .page-tip img{
-	position: absolute;
+	/* position: absolute; */
 	top: 0;
 	left: 0;
 }
@@ -246,7 +257,7 @@ header{
 	padding-top: 40px;
 	margin: auto;
 	background-color: rgb(247, 247, 247);
-	width: 80%;
+	width: 100%;
 }
 .footer p{
 	padding-top: 10px;
@@ -254,24 +265,28 @@ header{
 }
 
 .footer-logo{
-	width: 33%;
+	/* width: 33%; */
 	padding: 0 10px;
 	display:  table-cell;
+}
+.footer-logo img{
+	width: 60px;
 }
 .footer-logo p{
 	font-size: 14px;
 }
 .footer-copyright{
-	width: 33%;
+	/* width: 33%; */
 	margin: auto;
 	padding-top: 30px;
-	display:  table-cell;
+	/* display:  table-cell; */
 	text-align: center;
 	vertical-align: bottom;
 }
 .footer-copyright img{
 	display: inline-block;
 	height: 16px;
+	width: 16px;
 }
 .footer-copyright p{
 	margin: 0;
@@ -279,14 +294,14 @@ header{
 }
 
 .footer-terms{
-	width: 33%;
+	/* width: 33%; */
 	padding-top: 20px;
 	display:  table-cell;
 	vertical-align: bottom;
 }
 .footer-social-media-icons{
 	display: table;
-	width: 80%;
+	/* width: 80%; */
 	text-align: right;
 }
 .footer-social-media-icons a{
@@ -304,11 +319,14 @@ header{
 
 .footer-text{
 	margin: auto;
-	width: 80%;
+	/* width: 80%; */
     display: table;
+	border-spacing: 10px 0px;
+	/* padding: 10px; */
 }
 .footer-text p{
 	display: table-cell;
 	text-align: right;
 	font-size: 14px;
+	/* padding-left: 10px; */
 } 
