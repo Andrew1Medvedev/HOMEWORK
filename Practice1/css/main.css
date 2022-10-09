@@ -2,9 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.ttf');
+}
 .wrapper{
-	width: 1920px;
 	margin: auto;
+}
+img {
+	max-width:100%;
+	max-height:100%;
 }
 
 .header .header_container{
@@ -19,8 +26,11 @@
 .header .header_container .header_top .header_navigation a{
 	text-decoration: none;
 	color: #774E2E;
-	font-family: "Montserrat SemiBold";
+	font-family: "Montserrat";
 	font-size: 16px;
+}
+.header .header_container .header_top .header_navigation a:not(:last-child) {
+	margin: 0 50px 0 0;
 }
 .header .header_container .header_info{
 	display: flex;
@@ -28,7 +38,8 @@
 	align-items: center;
 }
 .header .header_container .header_info .header_invitation{
-	font-family: "Montserrat SemiBold";
+	font-family: "Montserrat";
+	width: 50%;
 }
 .header .header_container .header_info .header_invitation h2{
 	font-size: 110px;
@@ -51,9 +62,113 @@
 	margin: 50px 0 0 0;
 	padding: 10px 20px;
 }
-
+.header .header_container .header_info .header_invitation .img_wrapper{
+	width: 50%;
+}
 .sweets{
+	font-family: "Montserrat";
 	background-color: #FFF9EA;
-	margin: 150px 0 0 0;
-	/*height: 500px;*/
+	margin: auto;
+	padding: 150px 0;
+}
+.sweets .sweets_wrapper{
+	margin: auto;
+	width: 60%;
+}
+.sweets .sweets_wrapper .sweets_header{
+	text-align: center;
+	display: flex;
+}
+.sweets .sweets_wrapper .sweets_header h2{
+	font-size: 72px;
+	color: orange;
+	text-transform: uppercase;
+}
+.sweets .sweets_wrapper .sweets_header span{
+	font-size: 72px;
+	color: brown;
+	text-transform: uppercase;
+}
+.sweets .sweets_wrapper .sweets_products{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.sweets .sweets_wrapper .sweets_products .sweets_product{
+	width: 32%;
+	background-color: white;
+	text-align: center;
+}
+.sweets .sweets_wrapper .sweets_products .sweets_product h3{
+	color: #673B19;
+	font-size: 24px;
+	margin-top: 36px;
+}
+.sweets .sweets_wrapper .sweets_products .sweets_product p {
+	color: #774E2E;
+	font-size: 16px;
+	margin: 15px 0 60px 0;
+}
+.advices{
+	margin: auto;
+	padding: 150px 0;
+}
+.advices .advices_wrapper{
+	margin: auto;
+	width: 60%;
+	display: flex;
+}
+.advices .advices_wrapper .advices_info{
+	width:50%;
+	margin: 44px 0 0 0;
+}
+.advices .advices_wrapper .advices_info .advices_header h2{
+	font-size: 72px;
+	color: orange;
+	text-transform: uppercase;
+}
+.advices .advices_wrapper .advices_info .advices_header h3{
+	font-size: 72px;
+	color: brown;
+	text-transform: uppercase;
+}
+.advices .advices_wrapper .advices_info .advices_header p{
+	font-size: 16px;
+	color: #774E2E;
+	margin: 15px 0 0 0;
+}
+.advices .advices_wrapper .advices_info .advices_list{
+	margin: 60px 0 0 0;
+}
+.advices .advices_wrapper .advices_info .advices_list p{
+	margin: 0 0 20px 0;
+	font-size: 24px;
+	color: #673B19;
+}
+.advices .advices_wrapper .advices_info .advices_list ul{
+	margin: 20px 0 0 0;
+}
+.advices .advices_wrapper .advices_info .advices_list li{
+	font-size: 16px;
+	color: #774E2E;
+}
+.advices .advices_wrapper .img_wrapper{
+	width:50%;
+}
+footer {
+	background-color: #774E2E;
+}
+footer .footer_wrapper{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .footer_wrapper img{
+	padding: 40px 0;
+}
+footer .footer_wrapper p{
+	font-size: 36px;
+	color: white;
 }

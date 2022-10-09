@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: 'Practico';
+	src: url('../fonts/Pacifico-Regular.ttf');
+}
+img {
+	max-width:100%;
+	max-height:100%;
+}
+.wrapper{
+	width: 60%;
+	margin: auto;
+	font-family: Montserrat, serif;
+}
+.wrapper header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0 11px 0;
+}
+.wrapper header .header_logo{
+	font-family: Practico, serif;
+	font-size: 48px;
+	color: #A52424;
+}
+.wrapper header .header_nav{
+}
+.wrapper header .header_nav a{
+	font-size: 18px;
+	color: #101010;
+	text-decoration: none;
+	word-spacing: 5px;
+}
+.wrapper header .header_nav a:not(:last-child){
+	margin: 0 20px 0 0;
+}
+.wrapper header .header_phone{
+	font-size: 18px;
+	color: #A52424;
+	text-decoration: none;
+}
+
+.wrapper .representation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrapper .representation .representation_info{
+	width: 50%;
+}
+.wrapper .representation .representation_info h1{
+	font-size: 72px;
+	color: #232323;
+}
+.wrapper .representation .representation_info p{
+	font-size: 22px;
+	color: #101010;
+	margin: 20px 0 60px 0;
+}
+.wrapper .representation .representation_info button{
+	font-size: 18px;
+	color: #A52424;
+	border: 1px solid #A52424;
+	background-color: white;
+}
+.wrapper .representation .img_wrapper{
+	width: 50%;
+}
+.wrapper .about{
+	margin: 150px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.wrapper .about .about_left{
+	width: 40%;
+}
+.wrapper .about .about_left h2{
+	font-size: 64px;
+	color: #232323;
+	letter-spacing: 0.05em;
+}
+.wrapper .about .about_left .about_left_me{
+	margin: 95px 0 0 99px;
+}
+.wrapper .about .about_left .about_left_me h3{
+	font-size: 22px;
+	color: #A52424;
+	padding: 50px 0 0 0;
+}
+.wrapper .about .about_left .about_left_me .img_wrapper{
+	width: 100%;
+}
+.wrapper .about .about_main{
+	width: 55%;
+	margin: 78px 0 0 0;
+}
+.wrapper .about .about_main h3{
+	font-size: 22px;
+	color: #A52424;
+}
+.wrapper .about .about_main p{
+	font-size: 18px;
+	color: #232323;
+	padding: 21px 0 7px;
+}
+.wrapper .portfolio {
+	margin:  150px 0 0 0;
+}
+.wrapper .portfolio h2{
+	font-size: 64px;
+	color: #232323;
+	letter-spacing: 0.05em;
+}
+.wrapper .portfolio .portfolio_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 50px 0 0 0;
+}
+.wrapper .portfolio .portfolio_content .portfolio_item{
+	width: 32%;
+}
+.wrapper .portfolio .portfolio_content .portfolio_item .img_wrapper{
+	width: 100%;
+}
+.wrapper .portfolio .portfolio_content .portfolio_item h3{
+	font-size: 22px;
+	color: #101010;
+	margin: 20px 0 0 0;
+}
+.wrapper .portfolio .portfolio_content .portfolio_item h4{
+	font-size: 18px;
+	color: #101010;
+	margin: 10px 0 0 0;
+}
+.wrapper .portfolio .portfolio_content .portfolio_item button{
+	color: #A52424;
+	background-color: white;
+	border: 1px solid #A52424;
+	padding: 8px 22px;
+	margin: 20px 0 0 0;
+}
+
+.wrapper .prices{
+	margin:  150px 0 0 0;
+}
+.wrapper .prices h2{
+	font-size: 64px;
+	color: #232323;
+	letter-spacing: 0.05em;
+}
+.wrapper .prices .prices_content{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 50px 0 0 0;
+}
+.wrapper .prices .prices_content .price_item{
+	width:40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wrapper .prices .prices_content .price_item .img_wrapper{
+	margin: auto;
+}
+.wrapper .prices .prices_content .price_item h3{
+	font-size: 24px;
+	color: #A52424;
+	margin: 30px auto 0 auto;
+}
+.wrapper .prices .prices_content .price_item .price_details{
+	margin: 25px auto 0 auto;
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.wrapper .prices .prices_content .price_item .price_details span{
+	padding: 0 0 0 20px;
+}
+.wrapper .prices .prices_content .price_item .price_order{
+	margin: 25px auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrapper .prices .prices_content .price_item .price_order p{
+	padding: 0 20px 0 0;
+	font-size: 36px;
+	color: #A52424;
+}
+.wrapper .prices .prices_content .price_item .price_order button{
+	font-size: 18px;
+	color: #A52424;
+	border: 1px solid #A52424;
+	padding: 8px 22px;
+	background-color: white;
+}
+.wrapper .appointments{
+	margin: 150px 0 0 0;
+
+}
+.wrapper .appointments h1{
+	font-size: 64px;
+	color: #232323;
+}
+.wrapper .appointments .appointment_data{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0 0 0;
+}
+.wrapper .appointments .appointment_data .appointment_photo{
+	width: 45%;
+	position: relative;
+}
+.wrapper .appointments .appointment_data .appointment_photo .first_photo{
+	position: absolute;
+	left: 0;
+	top: 47px;
+}.wrapper .appointments .appointment_data .appointment_photo .second_photo{
+	position: relative;
+	left: 261px;
+	top: 0;
+}
+.wrapper .appointments .appointment_data .appointment{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.wrapper .appointments .appointment_data .appointment .app_name{
+	width: 100%;
+	border: 1px solid rgba(35, 35, 35, 0.85);
+	background-color: white;
+	padding: 10px 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	color: rgba(35, 35, 35, 0.35);
+}
+.wrapper .appointments .appointment_data .appointment .app_email{
+	width: 100%;
+	border: 1px solid rgba(35, 35, 35, 0.85);
+	background-color: white;
+	padding: 10px 10px;
+	font-size: 18px;
+	color: rgba(35, 35, 35, 0.35);
+	box-sizing: border-box;
+	margin: 40px 0 0 0;
+}
+.wrapper .appointments .appointment_data .appointment .app_message{
+	width: 100%;
+	border: 1px solid rgba(35, 35, 35, 0.85);
+	background-color: white;
+	padding: 10px 10px;
+	font-size: 18px;
+	color: rgba(35, 35, 35, 0.35);
+	margin: 40px 0 0 0;
+	box-sizing: border-box;
+	resize: none;
+}
+.wrapper .appointments .appointment_data .appointment .app_submit{
+	width: 100%;
+	border: 1px solid #A52424;
+	background-color: white;
+	padding: 10px 10px;
+	font-size: 24px;
+	color: #A52424;
+	margin: 40px 0 0 0;
+}
+footer{
+	margin: 100px 0 0 0;
+	border-top: 1px solid #232323;
+}
+footer .footer_wrapper{
+	width: 60%;
+	margin: auto;
+	font-family: Montserrat, serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+footer .footer_wrapper .footer_logo{
+	font-family: Practico, serif;
+	font-size: 48px;
+	color: #A52424;
+}
+footer .footer_wrapper .footer_phone{
+	font-size: 18px;
+	color: #A52424;
+	text-decoration: none;
+}
+
+footer .footer_wrapper .socials img{
+	width: 30px;
+	height: 30px;
+	padding: 0 20px;
+}
